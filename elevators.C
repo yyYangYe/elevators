@@ -44,7 +44,7 @@ int Elevator::display_passengers()
 void Elevator::run()
 {
   message("running");
-
+  open_door();
   // Pick up and drop off passengers.
 }
 
